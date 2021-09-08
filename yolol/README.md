@@ -1,6 +1,6 @@
 Collection of Yolol scripts created for the Jilted from Singularity Starbase Community, designed by Sun-cy
 
-### General yolol gotchas
+### General YOLOL gotchas
 
 #### Processing speed
 Each yolol chip has a 0.2s line read speed. That means that every line will add .2 seconds to the total time needed to traverse the chip.  So if you need something updating fast, you can try to split your script over various chips so they all run as fast as possible.
