@@ -10,4 +10,8 @@ Some scripts depend on the line read speed, eg. for calculating the current fuel
 Global variables are the variables available from your ship's internals.  They are always preceeded by a `:`. Local variables are only available in the current chip and cannot start with `:`.
 When a yolol script tries to access a global variable that is not initialized, it will silently fail. You can test this by adding a GOTO at the end of the line and watch it being ignored.  Yolol chips cannot initialize global variables, you either need to assign them to a panel or button first.  If you don't want or don't have a panel or button, you have to add them to a Memory Chip instead.
 
-#### to be continued..
+### Approach
+WIP
+
+### Consumption
+See the [Consumption README.md](consumption/README.md)
